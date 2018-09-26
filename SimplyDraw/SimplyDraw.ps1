@@ -1,0 +1,3 @@
+# DotSource all PS1 files...
+Get-ChildItem -Path "$PSScriptRoot" -Filter *.ps1 -File |
+    ForEach-Object { . $_.FullName }
