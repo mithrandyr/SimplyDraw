@@ -54,8 +54,8 @@ Class BoxClass {
     static $Alias = [ordered]@{
         "/_" = "DownRight"
         "\_" = "UpRight"
-        "_\" = "UpLeft"
-        "_/" = "DownLeft"
+        "_\" = "DownLeft"
+        "_/" = "UpLeft"
         "|" = "Vertical"
         "-" = "Horizontal"
         "+" = "Cross"
